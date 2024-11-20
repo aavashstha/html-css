@@ -1,0 +1,416 @@
+*::selection{
+    color: rgb(186, 186, 36);
+    background-color: rgb(59, 57, 57);
+}
+
+body{
+    background-color: #e9c46a;
+}
+
+header h1{
+    font-family: Rajdhani;
+    color: #BB2649;
+}
+
+#navbar ul{
+    list-style-type:none;
+    background-color: hsl(0 0 35);
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    text-align:center;
+}
+
+
+#navbar li{
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+#navbar li:hover{
+    background-color: hsl(0 0 10);
+    transform: scale(1.05, 1.05);
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#navbar span{
+    background-color: hsl(0 0 25);
+}
+
+
+
+#pfp{
+    background-color: hsl(43, 57%, 59%);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#pfp img{
+    display: flex;
+    justify-self: center;
+    height: 250px;
+    width: 250px;
+    border: 3px ridge #e25c02;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+#pfp img:hover{
+
+transform: scale(1.05, 1.05);
+}
+
+
+
+#pfp h3{
+    text-align: center;
+    color: #009B77;
+    font-family: "Maven Pro";
+    margin-bottom: 0;
+}
+
+#pfp p{
+    font-family: Philosopher;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 80%;
+    font-weight: bold;
+    color: #6b5976;
+}
+
+
+#aboutme{
+    padding: 20px;
+    margin: 20px;
+    background-color: hsl(43, 57%, 59%); 
+    border-radius: 10px;
+}
+
+
+#aboutme h3{
+    margin-top: 0px;
+    font-family: Rajdhani;
+    color: rgb(32, 135, 39);
+}
+
+#aboutme p{
+    margin-bottom: 10px;
+    font-family: Philosopher;
+    color: #6b5976;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+#myprojects h3{
+    margin-top: 0px;
+    font-family: Rajdhani;
+    color: rgb(32, 135, 39);
+}
+
+
+#myprojects{
+    padding: 20px;
+    margin: 20px;
+    background-color: hsl(43, 57%, 59%); 
+    border-radius: 10px;
+}
+
+
+#pro1{
+    padding-bottom: 100px;
+}
+
+#pro1 #head1{
+    color: #009B77;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+}
+
+
+#pro1 img{
+    height: 350px;
+    width: 350px;
+    border: 2px dashed rgb(78, 77, 77);
+    border-radius: 5%;
+    display:flex;
+    justify-self: center;
+}
+
+#name1{
+    text-align: center;
+    font-family: "Maven Pro";
+    color: #BB2649;
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+#des1{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Philosopher;
+    color: #6b5976;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+#pro1 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+#pro1 a{
+    color:green;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#link{
+    color: green;
+    text-align: center;
+    font-size: 105%;
+}
+
+
+
+#pro2{
+    padding-bottom: 100px;
+}
+
+#pro2 #head2{
+    color: #009B77;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+}
+
+
+#pro2 img{
+    height: 350px;
+    width: 350px;
+    border: 2px dashed rgb(78, 77, 77);
+    border-radius: 5%;
+    display:flex;
+    justify-self: center;
+}
+
+#name2{
+    text-align: center;
+    font-family: "Maven Pro";
+    color: #BB2649;
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+#des2{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Philosopher;
+    color: #6b5976;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+#pro2 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+#pro2 a{
+    color:green;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#link{
+    color: green;
+    text-align: center;
+    font-size: 105%;
+}
+
+
+#pro3{
+    padding-bottom: 20px;
+}
+
+#pro3 #head3{
+    color: #009B77;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+}
+
+
+#pro3 img{
+    height: 350px;
+    width: 350px;
+    border: 2px dashed rgb(78, 77, 77);
+    border-radius: 5%;
+    display:flex;
+    justify-self: center;
+}
+
+#name3{
+    text-align: center;
+    font-family: "Maven Pro";
+    color: #BB2649;
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+#des3{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Philosopher;
+    color: #6b5976;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+#pro3 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+#pro3 a{
+    color:green;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#link{
+    color: green;
+    text-align: center;
+    font-size: 105%;
+}
+
+
+#contactme{
+    padding: 20px;
+    margin: 20px;
+    background-color: hsl(43, 57%, 59%); 
+    border-radius: 10px;
+}
+
+#contactme h3{
+    margin-top: 0px;
+    font-family: Rajdhani;
+    color: rgb(32, 135, 39);
+}
+
+#contactme p{
+    margin-bottom: 10px;
+    font-family: Philosopher;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+
+#contactme a{
+    color: rgb(73 73 73);
+}
+
+
+#social{
+    padding: 20px;
+    margin: 20px;
+    background-color: hsl(43, 57%, 59%); 
+    border-radius: 10px;
+}
+
+#social h3{
+    margin-top: 0px;
+    font-family: Rajdhani;
+    color: rgb(32, 135, 39);
+}
+
+#social a{
+    padding: 20px;
+}
+
+#social p{
+    text-align: center;
+    font-size: 60px;
+}
+
+.fa-brands.fa-facebook{
+    color: #316FF6;
+}
+
+.fa-brands.fa-instagram{
+    color: #d62976;
+}
+
+.fa-brands.fa-x-twitter{
+    color: #313131;
+}
+
+.fa-brands.fa-whatsapp{
+    color: #35d366;
+}
+
+.fa-brands.fa-linkedin-in{
+    color: #0077B5;
+}
+
+
+
+.fa-brands.fa-facebook:hover{
+    transform: scale(1.1);
+    color: #2759c7;
+}
+
+.fa-brands.fa-instagram:hover{
+    transform: scale(1.1);
+    color: #b52365;
+}
+
+.fa-brands.fa-x-twitter:hover{
+    transform: scale(1.1);
+    color: #616060;
+}
+
+.fa-brands.fa-whatsapp:hover{
+    transform: scale(1.1);
+    color: #2dbc5a;
+}
+
+.fa-brands.fa-linkedin-in:hover{
+    transform: scale(1.1);
+    color: #006297;
+}
+
+
+
+
+#scrollup{
+    transform: scale(1.15);
+    border-radius: 1000%;
+    display: flex;
+    justify-self: end;
+    position: fixed;;
+    bottom: 10px;
+    left: 98%;
+    border: 3px solid;
+}
